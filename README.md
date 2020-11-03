@@ -1,4 +1,3 @@
-[![Awesome](https://img.shields.io/static/v1?label=&message=Luã&color=000&logo=lua)](https://qwilr.com)
 [![OpenAPI](https://img.shields.io/static/v1?label=&message=OpenAPI&color=fff&logo=openapi-initiative)][qwilr-openapi]
 [![Awesome](https://img.shields.io/static/v1?label=&message=Awesome%20Docs&color=fff&logo=awesome-lists)][qwilr-documentation]
 [![License](https://img.shields.io/static/v1?label=License&message=Qwilr&color=ef445a)](https://qwilr.com/license)
