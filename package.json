@@ -7,9 +7,8 @@
     "http-status-codes": "^2.1.4"
   },
   "scripts": {
-    "create-from-template": "ts-node src/1-create-from-template.ts",
-    "create-from-blocks": "ts-node src/2-create-from-blocks.ts",
-    "substitutions": "ts-node src/3-substitutions.ts"
+    "create-from-template": "ts-node src/01-create-from-template/create-from-template.ts",
+    "create-from-blocks": "ts-node src/02-create-from-blocks/create-from-blocks.ts"
   },
   "devDependencies": {
     "ts-node": "^9.0.0",

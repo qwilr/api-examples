@@ -1,17 +1,19 @@
 import { StatusCodes } from "http-status-codes";
 import axios, { AxiosError } from "axios";
-import { config } from "./config";
+import { config } from "../config";
 
 const httpClient = axios.create({
-  baseURL: config.api.baseUrl,
+  baseURL: config.baseUrl,
   headers: {
-    Authorization: `Bearer ${config.api.accessToken}`
-  }
+    Authorization: `Bearer ${config.accessToken}`,
+  },
 });
 
 httpClient.post("/v1/projects", {
-  "templateId": config.sample1.templateId,
-  "name": "New page from the template"
+  name: "New page from blocks",
+  blocks: [
+    "oqa9EsmipR_T5hayLiaKKkRIJGjb6A",
+  ],
 }).then(response => {
   console.log(response.data);
 }).catch(error => {
@@ -21,3 +23,4 @@ httpClient.post("/v1/projects", {
     console.error(err.response.data);
   }
 })
+
