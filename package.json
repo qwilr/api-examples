@@ -1,5 +1,6 @@
 {
   "name": "qwilr-examples-create-page",
+  "private":  true,
   "license": "Qwilr License",
   "version": "1.0.0",
   "dependencies": {

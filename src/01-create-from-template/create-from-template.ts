@@ -10,7 +10,7 @@ const httpClient = axios.create({
 });
 
 httpClient.post("/v1/projects", {
-  templateId: "5f89619f457c29e007503d61",
+  templateId: "5f98bb7acf3b110006a05e81",
   name: "New page from the template",
   substitutions: {
     sampleToken: "Sample Replaced Text",
