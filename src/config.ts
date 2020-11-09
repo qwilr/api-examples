@@ -5,7 +5,7 @@ export const config = {
    * @example Sandbox api.sandbox.qwilr.com
    * @example Production public-api.qwilr.com
    */
-  baseUrl: "http://api.sandbox.qwilr.com",
+  baseUrl: "https://api.sandbox.qwilr.com",
 
   /**
    * accessToken - access token
